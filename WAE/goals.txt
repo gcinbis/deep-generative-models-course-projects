@@ -1,0 +1,48 @@
+
+Wasserstein Auto-Encoders
+
+- Link to paper PDF: https://arxiv.org/pdf/1711.01558.pdf
+
+- Dataset 
+    - CelebA dataset 
+    
+- Qualitative results (Figure 3)
+    - Interpolation
+    - Reconstruction
+    - Random sampling
+    
+- Quantitative results (Table 1)
+    - FID (Fréchet Inception Distance)
+
+
+
+-- Version 1 submission --
+
+* We did not do any change in our goals.
+
+* We reproduced all the qualitative and quantitative results mentioned in the paper but our results are still not at the same level as the ones stated in the paper. We believe that this is because of the contradictory statements proposed in the paper about the hyper parameter setup.
+
+* Followings are the conflicts and difficulties we encountered during the implementation of version 1:
+    - Value of the regularization coefficient (lambda) for WAE-MMD is mentioned in two different parts of the paper (experiments section and the appendix) with two different values, 10 and 100 respectively.
+    
+    - Output activation function of the decoder network is not mentioned at all.
+    
+    - Normalization steps of input images are not fully covered.
+    
+    - Details of FID score calculation is missing, so that we manipulated an already existing implementation.
+    
+* Official implementation of the paper is available in TensorFlow (https://github.com/tolstikhin/wae). When we encountered with contradictory statements about hyper parameter setup, we had to check the implementation detail. We believe that official implementation setup is for reproducing large scale study, because there are also contradictory configurations of hyperparameters. Therefore, official implementation didn't help much. In fact, it misguided us even further.
+
+
+-- Version 2 submission --
+* Goals are not changed in this submission. The quantitative and qualitative results are improved in this version. While the paper proposes two different models of WAE-GAN and WAE-MMD, we implement only the MMD version, because it is showed that WEA-MMD is as competitive as WAE-GAN in large scale study and more importantly, it has a much more stable training scheme.
+
+* Our qualitative results are blurry but close enough to the results mentioned in the paper. In the case of qualitative results, we achieve FID almost 100 while paper report 55.
+
+* Refer to main.ipynb file "Challenges" section to more information about the possible problems in this implementation. 
+    
+
+
+
+
+
