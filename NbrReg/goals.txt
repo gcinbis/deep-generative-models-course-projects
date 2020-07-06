@@ -1,0 +1,32 @@
+Deep Semantic Text Hashing with Weak Supervision
+https://dl.acm.org/doi/pdf/10.1145/3209978.3210090
+
+We aim to implement the proposed method, namely the NbrReg for the
+smallest dataset presented in the paper; 20NewsGroups. We think that
+it should be possible to use the method for all bit lengths (8 to
+128). It would be nice to implement NbrReg + Doc method but it
+requires an additional network to be trained and the results are not
+satisfying for the larger datasets. Therefore, we plan to stick to the
+core of the paper which is the NbrReg method and plan to use it on
+20NewsGroups dataset.
+
+Erman Yafay
+
+—— version 1 submission ——
+
+* We wanted to obtain results for all bit lengths (8 to 128) but due
+  to time limitations only report results for 32 bit
+
+* We obtain 0.36 average precision, whereas authors report 0.46.
+
+* We think that the precision think that this might be due to a simple
+  training mistake and we should be able to catch up for 2nd
+  revision. For details see the Jupyter notebook submitted.
+
+—— version 2 submission ——
+
+* No changes were needed to be made to our goals
+
+* We've reproduced the results on the data set provided by the paper
+  authors almost exactly. But with the data set that we've created the
+  results are not comparable to the what's reported in the paper.
