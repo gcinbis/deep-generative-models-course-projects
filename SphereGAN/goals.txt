@@ -1,0 +1,15 @@
+http://openaccess.thecvf.com/content_CVPR_2019/papers/Park_Sphere_Generative_Adversarial_Network_Based_on_Geometric_Moment_Matching_CVPR_2019_paper.pdf
+Figure 7. Qualitative results of sphere GAN for STL-10 dataset.
+Table 3. IS and FID scores on STL-10 dataset (specifically the 4th and last rows showing the scores for SphereGAN-Conv and SphereGAN-ResNet).
+—— version 1 submission ——
+1. We did not change our goals.
+2. Our qualitative and quantiative results did not get close to reported results in the paper, as explained in detail in the notebook.
+3. We plan to consider the following approaches:
+	a. We emailed to the authors asking about specific things that are not included in the paper. We are waiting for the response.
+	b. To localize the problem, we will try to use the standart loss for GAN instead of Geometric Block, while keeping the rest of the architecture.
+ —— version 2 submission ——
+1. We did not change our goals
+2. Our qualitative were not recognizable but somewhat natural in terms of color and texture. Our quantitative results were not close to the ones in the paper (as reported in the notebook).
+3. We think we did correctly implement the architecture. We tried what authors suggested in their reply to our email, which had minimal effect. We also tried training on MNIST dataset by slightly decreasing the size of the model, one can see the results and more details in the notebook, section 'Difficulties Encountered'.
+
+
