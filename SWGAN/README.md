@@ -6,7 +6,7 @@ Ishan Deshpande, Ziyu Zhang, Alexander G. Schwing
 
 **Sample Results**
 
-![Generated images] (/results/fake.png)
+![Generated images](results/fake.png)
 
 This folder provides a re-implementation of this paper in PyTorch, developed as part of the course METU CENG 796 - Deep Generative Models. The re-implementation is provided by:
 
