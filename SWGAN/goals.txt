@@ -1,0 +1,28 @@
+Generative Modeling Using the Sliced Wasserstein Distance
+Ishan Deshpande, Ziyu Zhang, Alexander G. Schwing; The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 3483-3491
+http://openaccess.thecvf.com/content_cvpr_2018/html/Deshpande_Generative_Modeling_Using_CVPR_2018_paper.html
+
+We plan reproduce:
+show effect of sample size by producing loss values on different sample sizes (Fig.4),
+present results on the CIFAR10 dataset.
+
+------ version 1 submission -------
+
+We did not change our goals.
+
+We generate samples on the model trained on CIFAR10 dataset.
+
+We tried to show the effect of sample size by presenting loss values for 128, 256, 512, and 1024 sample sizes. But the result is not like the plot in the paper.
+Different sample sizes did not affect the losses. We think that the fully connected deep generator given in the paper(Appendix D) is not the right choice for showing this effect
+so that we intend to change the architecture of the generator and try again to reach the same results.
+
+------ version 2 submission -------
+
+We did not change our goals.
+
+We generate samples on the model trained on CIFAR10 dataset as shown in the paper.
+
+We tried to show the effect of sample size by presenting loss values for 128, 256, 512, and 1024 sample sizes. 
+The paper (Section 4.1.) does not give any information about the fully connected deep generator and hyperparameters used.
+In version 1 we tried to use the fully connected deep generator given in Appendix D for the section of 4.2.
+and in this verison we tried different architectures and hyperparameters but could not reporoduce the results showed in the paper.
