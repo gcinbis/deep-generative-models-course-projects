@@ -1,0 +1,8 @@
+MarginGAN: Adversarial Training in Semi-Supervised Learning
+https://papers.nips.cc/paper/9231-margingan-adversarial-training-in-semi-supervised-learning
+
+With the re-implementation of this paper, we aim to reproduce the generated fake images using MNIST as the dataset as qualitative results, which are observed on Figure 3-a in the paper. In parallel with this qualitative results, we will reproduce the means and standard errors of the error rates on MNIST (last row of Table 1 in the paper) as quantitative outcomes.
+—— version 1 submission —— 
+We managed to reproduce the results we aimed to reproduce. Hyperparameters for training in the paper were missing, so we chose our own set of hyperparameters by experimenting on the validation set and the quantitative results we obtained are on par with the results provided in the paper. (Table 1) In fact, we outperform the paper in 2 cases out of 4. Furthermore, with this 3 player minimax game setup, we trained the generator and the qualitative results we obtained resemble those obtained in the paper in that most of the generated examples are close to the decision boundaries and their labels cannot be determined with high confidence. (Figure 3-a)
+—— version 2 submission —— 
+We did not make any major changes to the first version. We have fixed some issues pointed out by the reviewers and added the documentation related to the paper. Other than these, our results are unchanged and we managed to reproduce the results we aimed to reproduce. 
