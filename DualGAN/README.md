@@ -7,7 +7,7 @@ Zili Yi, Hao (Richard) Zhang, Ping Tan, and Minglun Gong
 *ICCV 2017*
 
 
-**https://i.hizliresim.com/1xpJVS.png**
+![Teaser](1xpJVS.png)
 
 
 This folder provides a re-implementation of this paper in PyTorch, developed as part of the course METU CENG 796 - Deep Generative Models. The re-implementation is provided by:
