@@ -1,0 +1,9 @@
+- We didn't used rmsprop, since the model didn't converge with it. We used Adam optimizer.
+
+- We got Figure 3 from the paper. We will try to achieve Table 1 and Figures 5,8 instead of Figure 6.
+
+
+—— version 2 submission ——
+
+- We have achieved results mentioned in Figure 3 and Figure 8 from the paper.
+- There are no quantitative results achieved from the paper.
