@@ -1,0 +1,20 @@
+hyper_parameters = {
+    "threshold": [0.7, 0.8, 0.9],
+    "critic_threshold": 0.95,
+    "n_critic": 5,
+    "n_epochs_Classifier": 30,
+    "n_epochs_GAN": 200000,
+    "batch_size": 64,
+    "lr_Classifier": 0.001,
+    "lr_GAN": 0.0001,
+    "b1": 0.5,
+    "b2": 0.9,
+    "latent_dim": 100,
+    "n_classes": 10,
+    "img_size": 28,
+    "channels": 1,
+    "lambda_gp": 10,
+    "lambda_loss": 10,
+    "continue_on_existing_training": 0,
+    "run_download_sh": 0
+}
