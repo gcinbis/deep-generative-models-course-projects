@@ -1,0 +1,22 @@
+this code should be run to see the results:
+	jupyter trust main.ipynb 
+
+
+ipywidgets should be installed
+	with pip:
+		pip install ipywidgets
+		jupyter nbextension enable --py widgetsnbextension
+	with conda:
+		conda install -c conda-forge ipywidgets
+
+
+matplotlib, scipy and numpy should be installed
+	with pip:
+		pip install matplotlib
+		pip install scipy
+		pip install numpy
+	with conda:
+		conda install -c conda-forge matplotlib
+		conda install -c anaconda scipy
+		conda install -c anaconda numpy
+

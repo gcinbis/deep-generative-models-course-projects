@@ -1,0 +1,8 @@
+The relativistic discriminator: a key element missing from standard GAN
+https://arxiv.org/pdf/1807.00734.pdf
+Quantitative Results: Table 2, Table 3 and 64x64 part of Table 4.
+Qualitative Results: Figure 2
+ —— version 1 submission ——
+We did not make any changes to our initial goals and were successful in reproducing both the qualitative and quantitative results aimed for. Our FID results slightly differ from those reported in the original paper, we attribute this difference to the fact that we used our own implementation of an FID score calculator in PyTorch as opposed to the original paper's TensorFlow implementation (slightly different weight matrices). 
+—— version 2 submission —— 
+We have not made any changes to our goals and datasets from version 1.
