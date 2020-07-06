@@ -1,0 +1,24 @@
+
+Title: Duplex Generative Adversarial Network for Unsupervised Domain Adaptation
+URL: https://ieeexplore.ieee.org/document/8578260
+
+Quantitative Results: We plan to meet the classification accuracy of the architecture mentioned in Table 1, 2nd row from the bottom, 3rd column from the left (92.46%), where the model was trained on SVHN dataset with labels + unlabeled MNIST dataset, and tested against the MNIST dataset (SVHN -> MNIST) to show the domain adaptation quality. We plan to reproduce similar results with digits 0-4 to cut down on dataset size.
+
+Qualitative Results: We plan to reproduce Figure 4, where the model and the training is the same as the quantitative results, however this time SVHN images are fed into the network to generate images similar to the ones in MNIST, where digit category is preserved. Again, we plan to only use digits 0-4 to cut down on dataset size.
+
+—— version 1 submission ——
+
+* Whether you had to make any changes in your goals or not (eg, target dataset might have changed):
+	We reduced the digit datasets to only include labels from 0 to 4, in order to reduce training time and computational power needed.
+
+* How much you have been able to reproduce the results that you have aimed to reproduce:
+	We were not able to regenerate classification accuracy of 92.46%. Provided model outputs classification accuracy of 87.21%. Yet, our results are better than the closest competitor ATDA with 85.8% accuracy. Comparison and details can be found on the Table 1 of the original paper.
+	Our quantitative results were similar to the original paper's results, which can be found in the Table 4 of the paper itself.
+
+* If you could not reproduce the results that you have targeted: what is your future work plan (discuss what is missing in your implementation / what might be buggy / etc.):
+	Please check main.ipynb file for explanation.
+
+
+—— version 2 submission ——
+
+We did not change our initial result goals. Our quantitative results are satisfactory and our quantitative result is higher than the closest competitor in this field.
