@@ -11,10 +11,10 @@ More information regarding the development process can be found on the course ho
 * [METU CENG 796 - Spring 2021 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring21/CENG796/index.html)
 * [METU CENG 796 - Spring 2020 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring20/CENG796/index.html)
 
-Jupyter notebooks with pre-computed outputs, source codes, obtained results with discussions on the
-difficulties encountered during the project can be found in the project folders listed below.
+The Jupyter notebooks with pre-computed outputs, source codes, obtained results with discussions on the
+difficulties encountered during the projects can be found in the project folders listed below.
 
-In this repository, the projects are shared as is, with no guarantees, upon permission of the
+In this repository, the projects are shared as is, with no guarantees, upon kind permissions of the
 students. Nearly all projects are MIT licensed. Please check the project folders for more
 information, including information on project groups.
 
