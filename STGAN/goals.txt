@@ -1,0 +1,15 @@
+STGAN: A Unified Selective Transfer Network for Arbitrary Image Attribute Editing
+https://arxiv.org/pdf/1904.09709
+
+Qualitative:Figure 1
+Quantitative:We aim to reproduce Attribute generation accuracy metric of Figure 7.
+
+—— version 1 submission ——
+
+Training the model on CelebA dataset took much more than expected.
+Details are explained on the notebook
+
+—— version 2 submission ——
+
+Unfortunately, we couldn't achieve our goals.
+Details are explained on the notebook
