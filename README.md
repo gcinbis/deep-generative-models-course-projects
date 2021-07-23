@@ -18,3 +18,8 @@ Paper re-implementation projects from the course METU CENG796 Deep Generative Mo
 * [SinGAN](SinGAN/) - SinGAN: Learning a Generative Model from a Single Natural Image
 * [SphereGAN](SphereGAN/) - Sphere Generative Adversarial Network Based on Geometric Moment Matching
 * [WAE](WAE/) - Wasserstein Auto Encoders
+
+## Spring 2021 projects
+
+* [DeblurGANv2](DeblurGANv2/) - DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
+

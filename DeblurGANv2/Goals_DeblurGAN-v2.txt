@@ -1,0 +1,19 @@
+GROUP1
+
+Paper title: DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
+
+Paper link: https://arxiv.org/pdf/1908.03826.pdf
+
+-Experimental Result Goals-
+ 
+We are aiming at achieving single image deblurring results qualitatively via the end-to-end generative model DeblurGAN-v2(MobileNet) proposed in the paper on Kohler dataset similar to the one illustrated in Figure 4.As for quantitative evaluation, we plan to reproduce PSNR and SSIM scores on Kohler dataset with MobileNet backbone given in Table 2.
+
+ —— version 1 submission ——
+
+ 1-) We do not change our goals.
+ 2-) While our PSNR result is closer to paper's results, SSIM is very different than it.
+ 3-) We plan to enlarge our training dataset like in the paper. Because of the time limitation, we had to use smaller dataset. We also plan to incorporate a LR schedule to regularize the training further. —— version 2 submission ——
+
+ 1-) We did not change our goals.
+ 2-) While our PSNR result is closer to paper's results, SSIM is still lower than it.
+ 3-) We have enlarged our training dataset to a subset of GoPro dataset that contains around 2000 image pairs. We have incorporated the LR schedule as described in the paper. We could not reproduce the same results reported in Table 2. The reason might be that a full dataset of 10000 image pairs and a larger number of training epochs proposed in the paper boost the performance further. However this requires more computational resource that we did not have.  
