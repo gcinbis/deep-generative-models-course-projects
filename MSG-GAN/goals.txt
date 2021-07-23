@@ -1,0 +1,19 @@
+Team 6 experimental result goals
+
+Paper: MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks
+Link: https://arxiv.org/pdf/1903.06048.pdf
+
+Quantitative Results:
+At the end of the project the Inception-Score of our implementation on CIFAR-10 dataset will be compared to the Inception-Score provided in Table 3 of the paper.
+
+Qualitative Results:
+As qualitative results, random samples generated for CelebA dataset will be reproduced as it is done in Figure 12 in the paper. Since we have limited GPU memory (12 GB), we may need to decrease the latent channel numbers to be able to produce 128x128 images.
+
+—— version 1 submission ——
+
+We did not make any changes to our goals, however we had to choose learning rates different from the ones in Table 3. Please refer to the section related to difficulties in the main.ipynb.
+We were not able to re-create results identically. We were not able to train the model until convergence due to insufficient hardware, moreover had to decrease the model size (see difficulties section). We will continue to train our model more before the final submission.
+We reviewed/Proof-read our code twice and believe that we implemented the model correctly.
+
+—— version 2 submission ——
+Please refer to jupyter notebook main.ipynb ‘Difficulties’ section.
