@@ -1,0 +1,8 @@
+python==3.8
+torch 
+torchvision
+tensorflow==1.15
+imageio
+pytorch_fid
+tqdm
+matplotlib

@@ -1,0 +1,11 @@
+# Files
+
+
+# Folders
+.vscode/
+celeba/
+.ipynb_checkpoints/
+**/__pycache__/
+
+celeba*/
+TTUR/

@@ -1,0 +1,25 @@
+Group 2 was assigned the paper "A U-Net Based Discriminator for Generative Adversarial Networks" (link to pdf: https://arxiv.org/pdf/2002.12655.pdf)
+We plan to reproduce the quantitative results (primarily the FID score, possibly IS) at Section 4.2, Table 3.
+For qualitative results, we plan to show image samples trained on CelebA, the dataset we use for comparing qualitative results.
+(The paper does not show examples from this dataset, but we will imitate the shown examples in Figure 5 with the same resolution.)
+
+—— version 1 submission ——
+We have implemented most of the contributions of the paper, so there are no change in planned goals. 
+As a "checklist":
+
+[x] U-Net GAN Loss
+[x] CutMix training
+[x] Consistancy loss 
+[x] FID calculation
+[x] Proposed model design
+[ ] Comparative results to Section 4.2, Table 3
+[ ] Comparative qualitive results to Figure 5
+
+Even though there are some difficulties with
+training (see main.ipynb -> Challenges), we are still aiming to follow the
+previous goals.
+
+-- version 2 submission --
+We believe that we have implemented all of the contributions mentioned in the paper.
+We report qualitative and quantitative results in `main.ipynb`, and talk about the difference in FID (2.95 vs 20) in the 
+Challenges Encountered section.

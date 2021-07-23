@@ -1,0 +1,10 @@
+(informal, see requirements.txt for parsable version)
+python < 3.8 (because of tensorflow, see below)
+torch (probably any recent version)
+torchvision
+tensorflow=1.15 (needs to be < 2.0 for TTUR)
+imageio (any version?)
+TTUR (only on GitHub) and/or pytorch_fid (available via conda)
+tqdm
+matplotlib
+

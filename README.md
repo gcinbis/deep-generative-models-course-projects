@@ -22,4 +22,5 @@ Paper re-implementation projects from the course METU CENG796 Deep Generative Mo
 ## Spring 2021 projects
 
 * [DeblurGANv2](DeblurGANv2/) - DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
+* [UNetGAN](UNetGAN/) - A U-Net Based Discriminator for Generative Adversarial Networks
 
