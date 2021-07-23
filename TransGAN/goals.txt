@@ -1,0 +1,104 @@
+Project : TransGAN: Two Transformers Can Make One Strong GAN
+Paper URL: https://arxiv.org/abs/2102.07074
+Developers: Ahmet Sarıgün & Dursun Bekci
+
+
+------------------------------------------------------------
+Methods                        DA          IS↑          FID↓
+
+------------------------------------------------------------
+TRANSGAN                       NO       6.95±0.13      41.41
+                              YES       8.15±0.14      19.85
+------------------------------------------------------------
+Table 2.The effectiveness of Data Augmentation (DA) on both CNN-based GANs 
+and TransGAN. We used the full CIFAR-10training set and DiffAug (Zhao et al., 2020b).
+
+
+------------------------------------------------------------
+MODEL 		DEPTH 	   DIM 		IS↑ 		FID↓
+------------------------------------------------------------
+TRANSGAN-S	{5,2,2}    384       8.22±0.14         18.58
+TRANSGAN-M	{5,2,2}	   512       8.36±0.12         16.27
+TRANSGAN-L	{5,2,2}	   768       8.50±0.14         14.46
+TRANSGAN-XL	{5,4,2}   1024       8.63±0.16         11.89
+------------------------------------------------------------
+Table 4.Scaling-up the model size of TransGAN on CIFAR-10. Here “Dim” represents 
+the embedded dimension of transformer and “Depth” is the number of transformer 
+encoder block in each stage.
+
+
+In this project, we aim to reproduce qualitative results(generating image samples by 
+CIFAR-10 Dataset) and quantitative results that mentioned above for CIFAR-10 Dataset
+(Table 2 & Table 4).
+
+In this paper, we aim to train the smallest model which was TransGAN-S on CIFAR-10 but 
+since it takes long and we don't have enough computational power our qualitative and 
+quantitative results were not so good. Therefore, we simply reduce the model like shallow 
+model, and train it on the MNIST dataset. Although, this implemented model was so small 
+when comparing DCGAN, the training takes long and the qualitative results were not so 
+good comraing the convolutional based models.
+
+In this implementation we could not use metrics such as FID or IS score since in the 
+original paper there is no any benchmarking on MNIST dataset. You can try yourself with 
+pretrained on MNIST at ./checkpoint Also, training the model is relatively takes long 
+time comparing the convoltional based GANs and we provide an alternative which is in 
+the ./cifar path to readers to look original benchmark.  
+
+For the deatiled information, please check the main.ipynb.
+
+Since we have computational power limitation, as a future work, we try to focus on reproducing 
+
+------------------------------------------------------------
+MODEL 		DEPTH 	   DIM 		IS↑ 		FID↓
+------------------------------------------------------------
+TRANSGAN-S	{5,2,2}    384       8.22±0.14         18.58
+TRANSGAN-M	{5,2,2}	   512       8.36±0.12         16.27
+TRANSGAN-L	{5,2,2}	   768       8.50±0.14         14.46
+------------------------------------------------------------
+
+given table with data augmentation. If we get close results mentioned above, we want to reproduce 
+
+------------------------------------------------------------
+MODEL 		DEPTH 	   DIM 		IS↑ 		FID↓
+------------------------------------------------------------
+TRANSGAN-XL	{5,4,2}   1024       8.63±0.16         11.89
+------------------------------------------------------------
+
+given table with data augmentation. Our main goals, first get the reproduce the TranGAN-S 
+results with data augmentation..
+
+ 
+—— version 1 submission ——
+
+--------------------------------------------------------------------------------------------------------
+
+In this project, we aimed to reproduce qualitative results(generating image samples by CIFAR-10 Dataset) and quantitative results in Table 2 and Table 4 of the original paper that shown below.
+
+
+------------------------------------------------------------
+Methods                        DA          IS↑          FID↓
+
+------------------------------------------------------------
+TRANSGAN                       NO       6.95±0.13      41.41
+                              YES       8.15±0.14      19.85
+------------------------------------------------------------
+Table 2.The effectiveness of Data Augmentation (DA) on both CNN-based GANs 
+and TransGAN. We used the full CIFAR-10training set and DiffAug (Zhao et al., 2020b).
+
+------------------------------------------------------------
+MODEL       DEPTH      DIM      IS↑         FID↓
+------------------------------------------------------------
+TRANSGAN-S  {5,2,2}    384       8.22±0.14         18.58
+TRANSGAN-M  {5,2,2}    512       8.36±0.12         16.27
+TRANSGAN-L  {5,2,2}    768       8.50±0.14         14.46
+TRANSGAN-XL {5,4,2}   1024       8.63±0.16         11.89
+------------------------------------------------------------
+Table 4.Scaling-up the model size of TransGAN on CIFAR-10. Here “Dim” represents 
+the embedded dimension of transformer and “Depth” is the number of transformer 
+encoder block in each stage.
+
+
+We briefly discussed the goals and what we achieved in our jupyter notebook sections on
+"Experimental Result Goals vs. Achieved Results", "Test Model and Results" and "Challenges and Discussions". You may look these in detail in ```main.ipynb```.
+
+—— version 2 submission ——

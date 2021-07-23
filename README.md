@@ -3,6 +3,16 @@ METU CENG 796 - Deep Generative Models - Paper re-implementation projects
 
 Paper re-implementation projects from the course METU CENG796 Deep Generative Models (Spring 2020 & Spring 2021).
 
+## Spring 2021 projects
+
+* [DeblurGANv2](DeblurGANv2/) - DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
+* [MSG-GAN](MSG-GAN/) - MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks
+* [STGAN](STGAN/) - STGAN: A Unified Selective Transfer Network
+* [TransGAN](TransGAN/) - TransGAN: Two Transformers Can Make One Strong GAN, and That Can Scale Up
+* [TuiGAN](TuiGAN/) - TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images
+* [U-GAT-IT](U-GAT-IT/) - Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
+* [UNetGAN](UNetGAN/) - A U-Net Based Discriminator for Generative Adversarial Networks
+
 ## Spring 2020 projects
 
 * [CGWIN](CGWIN/) - Generative Well-intentioned Networks
@@ -18,14 +28,4 @@ Paper re-implementation projects from the course METU CENG796 Deep Generative Mo
 * [SinGAN](SinGAN/) - SinGAN: Learning a Generative Model from a Single Natural Image
 * [SphereGAN](SphereGAN/) - Sphere Generative Adversarial Network Based on Geometric Moment Matching
 * [WAE](WAE/) - Wasserstein Auto Encoders
-
-## Spring 2021 projects
-
-* [DeblurGANv2](DeblurGANv2/) - DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
-* [UNetGAN](UNetGAN/) - A U-Net Based Discriminator for Generative Adversarial Networks
-* [STGAN](STGAN/) - STGAN: A Unified Selective Transfer Network
-* [U-GAT-IT](U-GAT-IT/) - Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
-* [TuiGAN](TuiGAN/) - TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images
-* [MSG-GAN](MSG-GAN/) - MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks
-
 
