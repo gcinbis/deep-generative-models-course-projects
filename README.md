@@ -15,7 +15,7 @@ The Jupyter notebooks with pre-computed outputs, source codes, obtained results 
 difficulties encountered during the projects can be found in the project folders listed below.
 
 In this repository, the projects are shared as is, with no guarantees, upon kind permissions of the
-students. Nearly all projects are MIT licensed. Please check the project folders for more
+students. Nearly all projects are licensed with the standard MIT license. Please check the project folders for more
 information, including information on project groups.
 
 ## Spring 2021 projects
