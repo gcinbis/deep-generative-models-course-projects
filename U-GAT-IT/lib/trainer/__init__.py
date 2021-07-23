@@ -1,0 +1,1 @@
+from lib.trainer.ugatit_trainer import *
