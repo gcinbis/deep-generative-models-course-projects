@@ -1,0 +1,19 @@
+Quantitive aim: Table 1 SIFID metric score.
+Qualitative aim: Figure 4 Horse-Zebra translation.
+
+—— version 1 submission ——
+
+* We did not have to make changes in our goals.
+
+* We believe that we were able to train successful models on multiple unpaired images. After the training, our trained TuiGAN model's could produce the qualitative examples. The resulting horse2zebra and zebra2horse translation is similar to the ones given in the Figure 4 in the paper.
+
+We also implemented the SIFID calculations according to SinGAN since the authors did give reference to SinGAN about SIFID calculation. However, we could not reach our quantitative experiment goal. The authors claimed that their mean SIFID score is 0.080e-2 which is very low against our SIFID score which is 0.38, but they did not provide an explanation about how did they calculate the SIFID scores. Please see the implementation challenges for detail.
+
+* To reproduce SIFID score, first we will figure out whether the authors did used a different SIFID calculation than SinGAN or not. Since the qualitative examples seems right but our SIFID score is very high, we should check our identity loss and total variation loss implementation again because identity loss and total variation loss should help us to preserve texture tone and remove rough texture of the generated image which can directly effect our SIFID score.
+
+—— version 2 submission ——
+
+* We did not have to make changes in our goals.
+
+* In version 2, our models are same. So, our quantitative and qualitative results are same. We couldn't reproduce the quantitative results because they didn't provide an explanation about how did they calculate the SIFID scores. Please see the implementation challenges for detail.
+

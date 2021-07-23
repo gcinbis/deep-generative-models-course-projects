@@ -1,0 +1,5 @@
+torch==1.8.1
+torchvision==0.9.1
+opencv-contrib-python==4.5.1.48
+matplotlib==3.3.4
+scipy==1.5.4

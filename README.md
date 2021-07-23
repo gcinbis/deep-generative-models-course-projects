@@ -25,4 +25,6 @@ Paper re-implementation projects from the course METU CENG796 Deep Generative Mo
 * [UNetGAN](UNetGAN/) - A U-Net Based Discriminator for Generative Adversarial Networks
 * [STGAN](STGAN/) - STGAN: A Unified Selective Transfer Network
 * [U-GAT-IT](U-GAT-IT/) - Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
+* [TuiGAN](TuiGAN/) - TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images
+
 
