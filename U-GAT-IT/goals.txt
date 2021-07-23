@@ -1,0 +1,20 @@
+Project title: U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
+
+Goals: For quantitative results, we aim to achieve a maximum of 3 points higher than the U-GAT-IT related results specified in Table-3. For qualitative results, we aim to reproduce the images specified in column(b) of Figure-3 and Figure-4. Then maybe we can reproduce some of the attention map results specified in Figure-2.
+
+—— version 1 submission ——
+
+* We trained our model using selfie2anime dataset. There were no changes to the project, we implemented our   models as described in the paper.
+
+* We were able to train our models successfully. In the original paper, authors have trained their model approximately 300 epoch. 
+    Since we have computational limits, we were only able to train the model ~40 epochs. We can say that the outputs we obtained have similar characteristics to the outputs stated in Figure-2. 
+    We are still working on the model to train it more to achieve better results. All results can be found in the saved folder.
+
+* Our future work consists of training model a little bit more if we can and measuring the model performance using different metrics. As a result, we plan to do our quantitative experiments in version_2.
+
+---- version 2 submission ----
+
+* We did not make any major changes to the first version. We have fixed some minor issues pointed out by the reviewers. 
+* We have been able to reproduce the results that we have aimed for. The qualitative results are very close to Figure-3 and Figure-4 in the paper. Also, we include some of the attention map results as we mentioned in the previous goals file. However, KID score of the paper is a little bit better than what we have achieved. If we had the opportunity to train a little more, we had no doubt that we could achieve this score as well.
+
+ More details can be found in the main notebook of the project.

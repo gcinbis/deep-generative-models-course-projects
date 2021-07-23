@@ -1,0 +1,87 @@
+{
+    "name": "UGATIT_selfie2anime",
+    "n_gpu": 1,
+
+    "arch": {
+        "type": "UGATIT",
+        "args": {
+            "adv_weight": 1,
+            "cycle_weight": 10,
+            "idt_weight": 10,
+            "cam_weight": 1000,
+            "reflection": true
+        }
+    },
+
+    "datamanager": {
+        "type": "ImageMemoryAB",
+        "root": "./data",
+        "dataset_dir": "selfie2anime",
+        "height": 256,
+        "width": 256,
+        "norm_mean": null,
+        "norm_std": null,
+        "pin_memory": false,
+        "batch_size_train": 1,
+        "batch_size_test": 1,
+        "workers": 16
+    },
+
+    "optimizer": {
+        "generator": {
+            "type": "adam",
+            "args": {
+                "lr": 0.0002,
+                "betas": [0.5, 0.99],
+                "weight_decay": 0.0001
+            }
+        },
+        "discriminator": {
+            "type": "adam",
+            "args": {
+                "lr": 0.0002,
+                "betas": [0.5, 0.99],
+                "weight_decay": 0.0001
+            }
+        }
+    },
+
+    "lr_scheduler": {
+        "generator": {
+            "type": "multi_step",
+            "args": {
+                "stepsize": [50, 100],
+                "gamma": 0.5
+            }
+        },
+        "discriminator": {
+            "type": "multi_step",
+            "args": {
+                "stepsize": [50, 100],
+                "gamma": 0.5
+            }
+        }
+    },
+
+    "trainer": {
+        "type": "UGATITTrainer",
+        "epochs": 100,
+        "save_dir": "saved/",
+        "save_period": 1,
+
+        "monitor": "max",
+        "early_stop": 200,
+        "log_per_batch": 300,
+
+        "val": true,
+        "val_per_epochs": 1,
+
+        "visualize_train_batch": true,
+        "visualize_val_batch": true,
+        "vis_count": 40
+    },
+
+    "deployment": {
+        "best_model": ""
+    }
+}

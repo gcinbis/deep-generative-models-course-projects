@@ -24,4 +24,5 @@ Paper re-implementation projects from the course METU CENG796 Deep Generative Mo
 * [DeblurGANv2](DeblurGANv2/) - DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
 * [UNetGAN](UNetGAN/) - A U-Net Based Discriminator for Generative Adversarial Networks
 * [STGAN](STGAN/) - STGAN: A Unified Selective Transfer Network
+* [U-GAT-IT](U-GAT-IT/) - Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
 
