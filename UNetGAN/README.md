@@ -2,7 +2,7 @@
 
 Edgar Schonfeld, Bernt Schiele, Anna Khoreva
 
-*CVPR 2030*
+*CVPR 2020*
 
 ![results.png](resources/results.png)
 
