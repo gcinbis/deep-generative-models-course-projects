@@ -1,20 +1,20 @@
-METU CENG 796 - Deep Generative Models - Course projects 
-========================================================
+METU CENG 796 - Deep Generative Models - Paper re-implementation projects 
+=========================================================================
 
-Paper re-implementations from the course METU CENG796 Deep Generative Models (Spring 2020 & Spring 2021).
+Paper re-implementation projects from the course METU CENG796 Deep Generative Models (Spring 2020 & Spring 2021).
 
 ## Spring 2020 projects
 
-* [CGWIN](CGWIN/)
-* [DualGAN](DualGAN/)
-* [DupGAN](DupGAN/)
-* [HoloGAN](HoloGAN/)
-* [MGAN](MGAN/)
-* [MarginGAN](MarginGAN/)
-* [NbrReg](NbrReg/)
-* [ProGAN](ProGAN/)
-* [RGAN](RGAN/)
-* [SWGAN](SWGAN/)
-* [SinGAN](SinGAN/)
-* [SphereGAN](SphereGAN/)
-* [WAE](WAE/)
+* [CGWIN](CGWIN/) - Generative Well-intentioned Networks
+* [DualGAN](DualGAN/) - DualGAN: Unsupervised Dual Learning for Image-to-Image Translation
+* [DupGAN](DupGAN/) - Duplex Generative Adversarial Network for Unsupervised Domain Adaptation
+* [HoloGAN](HoloGAN/) - HoloGAN: Unsupervised Learning of 3D Representations From Natural Images
+* [MGAN](MGAN/) - MGAN: TRAINING GENERATIVE ADVERSARIAL NETS WITH MULTIPLE GENERATORS
+* [MarginGAN](MarginGAN/) - MarginGAN: Adversarial Training in Semi-Supervised Learning
+* [NbrReg](NbrReg/) - Deep Semantic Text Hashing with Weak Supervision
+* [ProGAN](ProGAN/) - Progressive Growing of GANs for Improved Quality, Stability, and Variation
+* [RGAN](RGAN/) - The Relativistic Discriminator: A Key Element Missing from Standard GAN
+* [SWGAN](SWGAN/) - Generative Modeling using the Sliced Wasserstein Distance
+* [SinGAN](SinGAN/) - SinGAN: Learning a Generative Model from a Single Natural Image
+* [SphereGAN](SphereGAN/) - Sphere Generative Adversarial Network Based on Geometric Moment Matching
+* [WAE](WAE/) - Wasserstein Auto Encoders
