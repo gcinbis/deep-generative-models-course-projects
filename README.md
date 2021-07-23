@@ -3,9 +3,11 @@ METU CENG 796 - Deep Generative Models - Paper re-implementation projects
 
 Paper re-implementation projects from the course METU CENG796 Deep Generative Models (Spring 2020 & Spring 2021).
 
-Each project is done by a student pair and an initial version of each project is peer-reviewed across project groups, as explained in the course homepages:
-* [Spring 2021 homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring21/CENG796/index.html)
-* [Spring 2020 homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring20/CENG796/index.html)
+Each project involves re-implementation of a recent paper (typically from a top-tier machine
+learning / computer vision conference) by a student pair. An initial version of each
+project is peer-reviewed by project groups. More information can be found on the course homepages:
+* [METU CENG 796 - Spring 2021 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring21/CENG796/index.html)
+* [METU CENG 796 - Spring 2020 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring20/CENG796/index.html)
 
 ## Spring 2021 projects
 
