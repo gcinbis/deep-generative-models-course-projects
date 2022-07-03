@@ -1,0 +1,35 @@
+—— Experimental Result Goals ——
+
+Qualitative Results: Figure-7, Figure-8 on 256x256 resolution
+Quantitative Results: Table-3 FID score comparison 3.25 on CELEBA and 3.10 on LSUN
+
+Additional Results: FFHQ and 1024x1024 resolution experiments
+
+
+—— version 1 submission ——
+Unfortunately we could not generate results in our v1 submission since we had some problems
+in our model implementations. We have detected several issues concerning the dimensions of signals
+in our building blocks and they are fixed after v1.
+
+
+—— version 2 submission ——
+We have sucessfully trained our models and generated results. However, we have changed our goals due to training limitations that we have encountered during our experimentations.
+We had a single gpu support unlikely to the setting in which the paper is originally experimented with
+which corresponds to 8 32GB V100 GPUs and 32 batch size.
+We couldn't fit more than 8 images for a batch. As a result we have decided to lower the resolution
+for 256x256 images to 128x128 images in order to cut from training time and also have sufficiently many images for a batch.
+In this setting, we were able to have batch sizes 4-8 and we have trained our models around 100k-300k of iterations
+whereas the original paper's iterations are around 40-50 million.
+
+Also our generator capacity is roughly the same with the original paper, whereas our discriminator capacity
+is significantly less due to the limitational tradeoffs that we have made and also in the paper they didn't put
+much emphasis on discriminator and we have adopted dcgan based a basic convolutional discriminator.
+
+We have dropped our additional experimental goals on 1024x1024 resolution, as we can barely work on 128x128 resolution.
+Additionally we have dropped FFHQ experiments and we have only focused on LSUN and CELEBA.
+
+Our qualitative goals remains the same and we have generated images for both LSUN and CELEBA
+corresponding to figures in the paper. We have mentioned to re-generate figures 7 and 8,
+but we have genrated figure 12 and 13 which is a larger image grid of 5x4 serving the same purpose with more variety of images.
+
+

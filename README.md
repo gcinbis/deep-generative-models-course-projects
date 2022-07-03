@@ -30,6 +30,7 @@ information, including information on project groups.
 * [DC-VAE](DC-VAE/) - Dual Contradistinctive Generative Autoencoder (CVPR'21)
 * [NCSNv2](NCSNv2/) - Improved Techniques for Training Score-Based Generative Models (NeurIPS'20)
 * [HistoGAN](HistoGAN/) - HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms (CVPR'21)
+* [StyleSwinGAN](StyleSwinGAN/) - StyleSwin: Transformer-based GAN for High-resolution Image Generation (CVPR'22)
 
 ## Spring 2021 projects
 

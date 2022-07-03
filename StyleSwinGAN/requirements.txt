@@ -1,0 +1,10 @@
+gdown
+pytorch
+torchvision
+numpy
+tqdm
+scipy
+matplotlib
+timm
+wandb
+scikit-learn
