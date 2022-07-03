@@ -1,0 +1,10 @@
+tqdm>=4.62.3
+torch>=1.10.1
+numpy
+torchvision
+matplotlib
+tqdm
+pathlib
+Pillow
+argparse
+scipy

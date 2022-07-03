@@ -1,0 +1,49 @@
+TITLE: PD-GAN: Probabilistic Diverse GAN for Image Inpainting
+URL: https://arxiv.org/pdf/2105.02201.pdf
+
+OUR MINIMUM GOALS:
+
+QUALITATIVE EVALUATION: Figure 5. Qualitative comparisons with state-of-the-art methods on Place2.
+
+Figure 6. Qualitative comparisons with state-of-the-art methods on CelebA-HQ
+
+Note: We are still trying to find the real images on Figure 5 for Places2 dataset. On the other hand, we have real image of Figure 6 for CelebA-HQ dataset. If we don't able to find the images of Figure 5, we will use the images of Figure 6 for Qualitative comparisons.
+
+QUANTITATIVE EVALUATION: 
+Table 1. Numerical comparisons on the Place2 dataset -> FID SCORES (Last Row(Ours))
+
+
+—— version 1 submission ——
+1. Our goals have not changed. (Figure 5. and Table 1.)
+
+2. We implemented the model as explained in the paper.
+However, the paper explains the generator model poorly.
+The paper explains only the structure of the generator and it does not explain any information such as channel size, kernel size, stride vs.
+On the other hand, it doesn't have any information about discriminator. The explanation of FID calculation basics is also missing.
+(More detailed explanations are in notebook.)
+
+3. We were only able to train the model only Places2/sky dataset due to the computational limits.
+We also didn't use Hard Mask in higher dimensions (image size>= 128) due to the computational limits.
+
+4. You may find our qualitative and quantitative results in the notebook.
+We achieved a result similar to our qualitative target.
+We got better FID results than PC Model for the quantitative target. This was actually our goal.
+You can find the FID results of our model and the PC-based model we use in the main.ipynb.
+The FID metric trend shown by our model and the PC-based model is similar to that on paper. As the mask rate increased,
+so did the FID results. Our model showed better results than the PC model in all ratios.
+However, the FID values do not exactly match the ones on the paper.
+
+
+—— version 2 submission ——
+1. Our goals have not changed. (Figure 5. and Table 1.)
+2. We made some changes to the first version but these changes weren't major changes.
+3. In version 1, model initialization was dependent to batch size, this dependency was removed.
+4. Discriminator output type and the feature matching loss calculation were changed. These issues were pointed from the reviewers.
+5. A test set was created to be used in FID calculation and calculations were made on this set.
+With these test set results, the pre-trained PC-Based Model and Our model were compared.
+As can be seen from these results, our model gave consistent results with the pre-trained PC model. As the Mask Ratio increased,
+our FID values increased and better results were obtained in all mask ratios than in the pre-trained model.
+However, our model has better results than our targets. The reason for the difference between our results and
+target results might be the differences in the images used and the placement of the masks.
+The model used in the FID calculation may cause this difference, the model wasn't also explained in the paper.
+As can be seen in the qualitative results, our model produced pictures that were close to our targets.

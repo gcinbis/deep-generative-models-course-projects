@@ -23,7 +23,8 @@ information, including information on project groups.
 
 ## Spring 2022 projects
 
-* [HeadGAN](HeadGAN/) - HeadGAN: One-shot Neural Head Synthesis and Editing
+* [HeadGAN](HeadGAN/) - HeadGAN: One-shot Neural Head Synthesis and Editing (ICCV'21)
+* [PD-GAN](PD-GAN/) - PD-GAN: Probabilistic Diverse GAN for Image Inpainting (CVPR'21)
 
 ## Spring 2021 projects
 
