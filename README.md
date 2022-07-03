@@ -28,7 +28,7 @@ information, including information on project groups.
 * [AWGAN](AWGAN/) - Adaptive Weighted Discriminator for Training Generative Adversarial Networks (CVPR'21)
 * [AttnFlow](AttnFlow/) - Generative Flows with Invertible Attentions (CVPR'22)
 * [DC-VAE](DC-VAE/) - Dual Contradistinctive Generative Autoencoder (CVPR'21)
-* [NCSNv2](NCSN/) - Improved Techniques for Training Score-Based Generative Models
+* [NCSNv2](NCSNv2/) - Improved Techniques for Training Score-Based Generative Models (NeurIPS'20)
 
 ## Spring 2021 projects
 
