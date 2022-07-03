@@ -1,0 +1,18 @@
+HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms
+https://arxiv.org/pdf/2011.11731.pdf
+Table 1 Row 6 (Anime Dataset)
+Figure S16 Rows 3-4 Column 2 (Anime Faces)
+
+—— version 1 submission —— 
+We did not make any changes in our goals.
+We could not produce any of the results.
+The reasons why we could not produce them is written in the Faced Challenges part of the main.ipynb
+We experimented with a lot of hyper-parameters and tried to only train the StyleGAN2 version a next step can be to train on even lower resolution images and check the implementation of the mod-demod conv operations. We made some checks beforehand and saw no problems but a smaller architecture can be better for our selected dataset. In this version to not distrupt the author's original work we did not try it.
+
+—— version 2 submission ——
+1- We tried training with batch of 2 and accumulate gradients 16 times, that should be same to having batch of 32.
+However, it learnt worse than batch of 16 without any accumulation on gradients. Therefore, to fit it to the GPU, we downsized the resolutions from 256x256 to 64x64.
+
+2- At the end of training, we interpret the model with target color computed from image taken from internet. However, we notice that target image does not affect generation.
+One inspection is the following. Creating a face captures a large area in the image. Thus, model may think that it is reached the target histogram since skin saturates.
+Lastly, since we trained with our losses, new scalar for histogram loss may be needed (alpha=2 for current version). 

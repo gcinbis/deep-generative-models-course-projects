@@ -1,0 +1,13 @@
+images
+__pycache__
+.vscode
+generated_images
+generator.pt
+discriminator.pt
+environment.yml
+generator_new*.pt
+discriminator_new*.pt
+new_generated_images
+dcgan_out
+wandb
+dcgan.py

@@ -29,6 +29,7 @@ information, including information on project groups.
 * [AttnFlow](AttnFlow/) - Generative Flows with Invertible Attentions (CVPR'22)
 * [DC-VAE](DC-VAE/) - Dual Contradistinctive Generative Autoencoder (CVPR'21)
 * [NCSNv2](NCSNv2/) - Improved Techniques for Training Score-Based Generative Models (NeurIPS'20)
+* [HistoGAN](HistoGAN/) - HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms (CVPR'21)
 
 ## Spring 2021 projects
 

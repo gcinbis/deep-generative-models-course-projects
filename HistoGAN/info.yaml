@@ -1,0 +1,6 @@
+- acronym: HistoGAN
+  title: "HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms"
+  year: 2021
+  venue: CVPR
+  paper_authors: Mahmoud Afifi, Marcus A. Brubaker, Michael S. Brown
+  group_members: Özgür Aslan, Burak Bolat
