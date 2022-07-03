@@ -1,0 +1,20 @@
+Group 5: Ömer Ege Kara, Feyza Yavuz
+Project Name: Generative Flows with Invertible Attentions (https://arxiv.org/abs/2106.03959)
+
+
+In this project, our aim is to reproduce the Table3 qualitative results and Figure4 quantitive results on CIFAR10 dataset.
+In mentioned table(Table3), evaluation of sample quality on CIFAR10 dataset with several metrics are given. We are planning to reproduce the FID metric results with AttnFlow methods(Last 4 rows).
+In mentioned figure(Figure4), comparison of samples from the AttnFlow methods and state-of-the-art models are given on CIFAR10 dataset.
+
+---- version 1 submission ----
+We have implemented Map based attention according to paper, and trained MARSCF architecture with IMAP layers,
+- We couldn't trained our model enough due to time constraints, so our results aren't 
+as good as we aimed. Our models generate noisy outputs for now, we couldn't computed quantitiative results yet.
+- We still aim to accomplish our stated goals for v2 submission.
+
+---- version 2 submission ----
+We have completed implementation of the imap and itrans layers according to paper, and trained MARSCF architecture with IMAP and ITrans layers.
+- Our model achieved loss which is close to the reported values in the paper, and our model can generate samples, from our side samples have acceptable
+properties, which are clusters of close colors, this can be infered as our model is learning underlying structure of the CIFAR10 dataset. Samples
+are included in the IPython notebook.
+- Our model achieved FID score of 231, which is higher than the reported values in the paper. 
