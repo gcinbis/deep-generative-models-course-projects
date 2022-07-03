@@ -25,6 +25,7 @@ information, including information on project groups.
 
 * [HeadGAN](HeadGAN/) - HeadGAN: One-shot Neural Head Synthesis and Editing (ICCV'21)
 * [PD-GAN](PD-GAN/) - PD-GAN: Probabilistic Diverse GAN for Image Inpainting (CVPR'21)
+* [AWGAN](AWGAN/) - Adaptive Weighted Discriminator for Training Generative Adversarial Networks (CVPR'21)
 
 ## Spring 2021 projects
 

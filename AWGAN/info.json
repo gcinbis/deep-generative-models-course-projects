@@ -1,0 +1,8 @@
+{
+	"acronym": "AWGAN",
+	"title": "Adaptive Weighted Discriminator for Training Generative Adversarial Networks",
+	"year": 2021,
+	"venue": "CVPR",
+	"paper_authors": "Vasily Zadorozhnyy, Qiang Cheng, Qiang Ye",
+	"group_members": "Orhun Buğra Baran"
+}

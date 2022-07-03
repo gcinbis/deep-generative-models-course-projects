@@ -1,0 +1,24 @@
+﻿Title: Adaptive Weighted Discriminator for Training Generative Adversarial Networks
+
+
+Url: https://arxiv.org/pdf/2012.03149.pdf
+
+
+As a quantitative experimental goal we will try to reproduce results in Table 1 of the paper where we will implement aw-Autogan and aw-SNGAN results on CIFAR10 dataset.
+
+
+As a qualitative experimental goal we will try to obtain images from the aw-Autogan and aw-SNGAN architectures on CIFAR10 dataset in a similar way to Figure 2 in the paper.
+
+--------------------- version 1 submission -----------------------------------------------------
+
+I had to exclude aw-Autogan and IS scores because my teammate withdrew from the course therefore I had to reduce the workload.
+
+Overall I was getting improvements in terms of FID on both models but due to limited time I couldnt tune the model (especially num_epochs) as much as I wanted. If I can run models for 100 epochs 
+
+I believe there can be a significant improvement in terms of both FID and image quality.
+
+I think my implementation is working fine but needs more engineering/tuning.
+
+--------------------- version 2 submission -----------------------------------------------------
+
+I obtained significant improvements to FID scores for both SNGAN (69.95 -> 42.37) and SNGAN-aw (61.85 -> 37.39). However, it is still worse than what is reported in the paper. I believe my implementation is correct and with more training (I increased number of epochs from 30 to 80) I can obtain some more improvement. The paper reports 320 epochs for SNGAN training in comparison.
