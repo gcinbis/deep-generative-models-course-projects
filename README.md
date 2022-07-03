@@ -23,13 +23,13 @@ information, including information on project groups.
 
 ## Spring 2022 projects
 
-* [HeadGAN](HeadGAN/) - HeadGAN: One-shot Neural Head Synthesis and Editing (ICCV'21)
-* [PD-GAN](PD-GAN/) - PD-GAN: Probabilistic Diverse GAN for Image Inpainting (CVPR'21)
 * [AWGAN](AWGAN/) - Adaptive Weighted Discriminator for Training Generative Adversarial Networks (CVPR'21)
 * [AttnFlow](AttnFlow/) - Generative Flows with Invertible Attentions (CVPR'22)
 * [DC-VAE](DC-VAE/) - Dual Contradistinctive Generative Autoencoder (CVPR'21)
-* [NCSNv2](NCSNv2/) - Improved Techniques for Training Score-Based Generative Models (NeurIPS'20)
+* [HeadGAN](HeadGAN/) - HeadGAN: One-shot Neural Head Synthesis and Editing (ICCV'21)
 * [HistoGAN](HistoGAN/) - HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms (CVPR'21)
+* [NCSNv2](NCSNv2/) - Improved Techniques for Training Score-Based Generative Models (NeurIPS'20)
+* [PD-GAN](PD-GAN/) - PD-GAN: Probabilistic Diverse GAN for Image Inpainting (CVPR'21)
 * [StyleSwinGAN](StyleSwinGAN/) - StyleSwin: Transformer-based GAN for High-resolution Image Generation (CVPR'22)
 
 ## Spring 2021 projects
