@@ -27,6 +27,7 @@ information, including information on project groups.
 * [PD-GAN](PD-GAN/) - PD-GAN: Probabilistic Diverse GAN for Image Inpainting (CVPR'21)
 * [AWGAN](AWGAN/) - Adaptive Weighted Discriminator for Training Generative Adversarial Networks (CVPR'21)
 * [AttnFlow](AttnFlow/) - Generative Flows with Invertible Attentions (CVPR'22)
+* [DC-VAE](DC-VAE/) - Dual Contradistinctive Generative Autoencoder (CVPR'21)
 
 ## Spring 2021 projects
 

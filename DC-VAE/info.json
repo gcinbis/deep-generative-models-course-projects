@@ -1,0 +1,9 @@
+
+{
+    "acronym"       : "DC-VAE",
+    "title"         : "Dual Contradistinctive Generative Autoencoder",
+    "year"          : "2021",
+    "venue"         : "CVPR - The Conference on Computer Vision and Pattern Recognition",
+    "paper_authors" : "Gaurav Parmar, Dacheng Li, Kwonjoon Lee, Zhuowen Tu",
+    "group_members" : "Aybora Köksal, Halil Çağrı Bilgi"
+}

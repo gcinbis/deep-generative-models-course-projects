@@ -1,0 +1,26 @@
+Dual Contradistinctive Generative Autoencoder
+https://arxiv.org/abs/2011.10063
+
+Qualitatively, CIFAR-10 Samples will be reproduced like in Figure 3 (b) of the paper. 
+Quantitatively, from Table 2, FID score of DC-VAE Sampling (ours) line on CIFAR-10 dataset will be reproduced.
+Since we don't have much computational resources, we chose a paper with published results at lowest resolution as possible in the first place. Since there is an ambiguity on training time
+If we cannot match the required(unknown) training iterations in a reasonable time, we may get 10-15% worse results
+
+—— version 1 submission —— 
+
+- We did not have changed any of our goals.
+- We are able to reach as low as 56 FID score in Sampling at CIFAR-10 dataset while in the paper 18 FID is reported.
+- if you could not reproduce the results that you have targeted: what is your future work plan (discuss what is missing in your implementation / what might be buggy / etc.)?
+The answer to this qustion is at the last paragraph of Challenges and Discussion part in the main.ipynb
+
+—— version 2 submission —— 
+
+- We did not have changed any of our goals.
+- We are able to reach as low as 24 FID score in Sampling at CIFAR-10 dataset while in the paper 18 FID is reported.
+- We could not exactly reach our goals, however the results we obtain are very close to the reported FID score. As we explained in the challanges part in version 1
+"looking at the mentioned papers and the number of negative samples (8096) used in training, the original paper adapts the contrastive loss proposed in 
+Momentum Contrast for Unsupervised Visual Representation Learning." We read the MoCo paper and understand how they calculate the contrastive loss with a 
+very high number of negative samples such as 8096, however, we decided not to implement it since the implementation would be very challenging and 
+stays out of the scope of our course. To increase the performance, the number of negative samples must be increased. To achieve that, we increased our batch size, 
+since number of negative samples in our implementation equals to batch_size - 1. This change improved the FID score from 29 to 24.
+
