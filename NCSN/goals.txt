@@ -1,0 +1,31 @@
+Paper: Improved Techniques for Training Score-Based Generative Models - NeurIPS 2020 
+
+Link: https://arxiv.org/pdf/2006.09011.pdf
+
+Experimental Result Goals
+
+* Qualitative Results: Figure 25 
+
+* Quantitative Results: Table 1 - NCSNv2 with denoising on unconditional CIFAR10 - FID score of 10.87 
+
+
+---- version 1 submission ----
+
+* We have not made any changes in our goals.
+
+* We have been able to generate images similar to the ones in Figure 25. However, we are close to the FID reported in the paper but there is still some gap. 
+
+* In our future work, we will focus on possible architectural differences. As we have mentioned in the main.ipynb, there are some changes and assumptions we made. We will revisit the relevant parts and try to reproduce the results that we aimed.
+
+
+---- version 2 submission ----
+
+* The goals remain the same.
+
+* Quantitatively, we aimed for 10.87 FID whereas we were able to obtain 12.53 FID on train set and 14.54 FID on test set. It can be considered close. Qualitatively, the examples seem close to the figure we wanted to reproduce.
+
+* Although we were able to obtain very close results, the difference may stem from:
+    - While implementing the InstanceNorm++, we did not track the running statistics as we did not see it in the paper. However, it can also be the case that they use it in the original implementation.
+    - The paper states that they apply Exponential Moving Average after every iteration. However, we missed that information while reading the paper and only applied it every 5000 iteration. We realized this situation when we were very close to the deadline and could not correct that.
+    - While building the architecture, we used RefineNet as our example and mimicked its architectural choices. However, our final model did not 100% matched with the model diagrams in the NCSNv2 paper. However, as we could not find further information on the model in the paper, we continued with the architecture we used in version 1.
+
