@@ -19,7 +19,7 @@ gradio
 #pyAudioAnalysis
 matplotlib==3.4.2
 simplejson==3.16.0
-scipy==1.6.3
+scipy==1.10.0
 numpy==1.20.3
 hmmlearn==0.2.5
 eyeD3==0.9.6
