@@ -1,13 +1,15 @@
 METU CENG 796 - Deep Generative Models - Paper re-implementation projects 
 =========================================================================
 
-Paper re-implementation projects from the course METU CENG796 Deep Generative Models (Spring 2020, Spring 2021 and Spring 2022).
+Paper re-implementation projects from the course METU CENG796 Deep Generative Models (Spring 2020, 2021, 2022, 2023 and 2024).
 
 Each project involves re-implementation of a recent paper, typically from a top-tier machine
 learning / computer vision conference, by a student pair. An initial version of each
 project is peer-reviewed by project groups. The goal has been to re-produce each paper based on
 paper itself, ideally without consulting to existing public implementations of papers, if available.
 More information regarding the development process can be found on the course homepages:
+* [METU CENG 796 - Spring 2024 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring24/CENG796/index.html)
+* [METU CENG 796 - Spring 2023 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring23/CENG796/index.html)
 * [METU CENG 796 - Spring 2022 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring22/CENG796/index.html)
 * [METU CENG 796 - Spring 2021 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring21/CENG796/index.html)
 * [METU CENG 796 - Spring 2020 course homepage](https://user.ceng.metu.edu.tr/~gcinbis/courses/Spring20/CENG796/index.html)
@@ -20,6 +22,17 @@ github's notebook rendering.
 In this repository, the projects are shared as is, with no guarantees, upon kind permissions of the
 students. Nearly all projects are licensed with the standard MIT license. Please check the project folders for more
 information, including information on project groups.
+
+## Spring 2023 projects
+* [SaShiMi](https://github.com/necrashter/SaShiMi-796) - It's Raw! Audio Generation with State-Space Models (ICML'22)
+* [MVCGAN](https://github.com/gcinbis/DeepGenerativeModels-2023-Spring-Projects/tree/main/MVCGAN/) - Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis (CVPR'22)
+* [GANSEG](https://github.com/gcinbis/DeepGenerativeModels-2023-Spring-Projects/tree/main/GANSeg/) - GANSeg: Learning to Segment by Unsupervised Hierarchical Image Generation (CVPR'22)
+* [Styleformer](https://github.com/gcinbis/DeepGenerativeModels-2023-Spring-Projects/tree/main/Styleformer/) - Styleformer: Transformer based Generative Adversarial Networks with Style Vector (CVPR'22)
+* [GPNN](https://github.com/gcinbis/DeepGenerativeModels-2023-Spring-Projects/tree/main/GPNN/) -  Drop The GAN: In Defense of Patch Nearest Neighbors as Single Image Generative Models (CVPR'22)
+* [FurryGAN](https://github.com/gcinbis/DeepGenerativeModels-2023-Spring-Projects/tree/main/FurryGAN/) - FurryGAN: High Quality Foreground-aware Image Synthesis (ECCV'22)
+* [ProtVAE](https://github.com/ssyigitarslan/ProtVAE) - ProtVAE: End-to-End deep structure generative model for protein design
+* [GenDA](https://github.com/erceguder/inference-time-latent-code-learning) - Few-shot cross-domain image generation via inference-time latent-code learning (ICLR'23)
+
 
 ## Spring 2022 projects
 
