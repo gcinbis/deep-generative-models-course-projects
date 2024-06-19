@@ -23,6 +23,14 @@ In this repository, the projects are shared as is, with no guarantees, upon kind
 students. Nearly all projects are licensed with the standard MIT license. Please check the project folders for more
 information, including information on project groups.
 
+## Spring 2024 projects
+* [DMD](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/DMD/) - One-step Diffusion with Distribution Matching Distillation (CVPR'24)
+* [Diff-Retinex](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/Diff-Retinex/) - Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model (CVPR'23)
+* [DiffDis](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/DiffDis/) - DiffDis: Empowering Generative Diffusion Model with Cross-Modal Discrimination Capability (ICCV'23)
+* [KD-DLGAN](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/KD-DLGAN/) - KD-DLGAN: Data Limited Image Generation via Knowledge Distillation (CVPR'23)
+* [MasterStyleTransfer](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/MasterStyleTransfer/) - Master: Meta Style Transformer for Controllable Zero-Shot and Few-Shot Artistic Style Transfer (CVPR'23)
+* [SeD](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/SeD/) - SeD: Semantic-Aware Discriminator for Image Super-Resolution (CVPR'24)
+
 ## Spring 2023 projects
 * [SaShiMi](https://github.com/necrashter/SaShiMi-796) - It's Raw! Audio Generation with State-Space Models (ICML'22)
 * [MVCGAN](https://github.com/gcinbis/DeepGenerativeModels-2023-Spring-Projects/tree/main/MVCGAN/) - Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis (CVPR'22)
