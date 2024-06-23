@@ -30,6 +30,7 @@ information, including information on project groups.
 * [KD-DLGAN](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/KD-DLGAN/) - KD-DLGAN: Data Limited Image Generation via Knowledge Distillation (CVPR'23)
 * [MasterStyleTransfer](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/MasterStyleTransfer/) - Master: Meta Style Transformer for Controllable Zero-Shot and Few-Shot Artistic Style Transfer (CVPR'23)
 * [SeD](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/SeD/) - SeD: Semantic-Aware Discriminator for Image Super-Resolution (CVPR'24)
+* [VideoDIP](https://github.com/gcinbis/DeepGenerativeModels-2024-Spring-Projects/tree/main/VideoDIP/) - Video Decomposition Prior: Editing Videos Layer by Layer
 
 ## Spring 2023 projects
 * [SaShiMi](https://github.com/necrashter/SaShiMi-796) - It's Raw! Audio Generation with State-Space Models (ICML'22)
