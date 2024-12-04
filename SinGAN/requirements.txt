@@ -4,5 +4,5 @@ numpy
 matplotlib
 pytorch
 torchvision
-scipy==1.3.3
+scipy==1.10.0
 tqdm
